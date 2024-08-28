@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 103px;
+    height: 33px;
+    margin-top: 13px;
+}
+.logo span{
+    margin-top: 10px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.box{
+    width: 300px ;
+    height: 241px;
+    padding: 20px 26px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 7px;
+    margin: 20px auto 26px auto;
+}
+.box h1{
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 7px;
+}
+#emailspace{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-left: 3px;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2px;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+#pas{
+    padding-left: 2px;
+    font-weight: 700;
+    display: block;
+    font-size: 13px;
+    margin-left: 1px;
+}
+a{
+    text-decoration: none;
+    color: #0066c0;
+}
+#pass{
+    border: 1px solid #0F1111;;
+    border-radius: 3px;
+    background-color: #fff;
+    height: 27px;
+    padding: 2px 7px;
+    line-height: normal;
+}
+.box button{
+    margin-top: 10px;
+    height: 29px;
+    color: #0F1111;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #f0c14b;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;  
+}
+.check{
+    display: flex;
+    align-items: center;
+}
+#cheeck{
+    margin-top: 10px;
+}
+.check label{
+    margin-top: 11px;
+    margin-left: 4px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+}
+.icon::after{
+    display: inline-block;
+    content: "";
+    border-top: 4px solid #949494;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    margin-left: 7px;
+}
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px auto 15px auto;
+}
+footer{
+    font-size: 12px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+}
+footer::before{
+    display: flex;
+    content: "";
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 44px;
+    margin-top: 1px solid transparent;
+    box-shadow: 0px 10px 15px -20px #333;
+}

@@ -44,3 +44,11 @@ $(document).ready(function()
         }
     );
 });
+$(document).ready(function()
+{
+    $("#btn").click(function()
+    {
+        window.location.href= "createaccount.html";
+    })
+
+});
